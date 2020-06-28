@@ -9,4 +9,12 @@ end
   
   
 def reverse_each_word_with_collect(string)
-  arrau
+  array = string.split(" ")
+  nuarray = []
+  arrauy.collect do |string|
+    nuarray << string.reverse
+  end
+  nuarray.join(" ")
+end
+  
+    
