@@ -8,13 +8,21 @@ def reverse_each_word(string)
 end
   
   
-def reverse_each_word_with_collect(string)
+#def reverse_each_word_with_collect(string)
+#  array = string.split(" ")
+#  nuarray = []
+#arrauy.collect do |string|
+ #    nuarray << string.reverse
+#  end
+#  nuarray.join(" ")
+#end
+  
+  def reverse_each_word_with_collect(string)
   array = string.split(" ")
   nuarray = []
-  arrauy.collect do |string|
+  array.each collect |string|
     nuarray << string.reverse
   end
   nuarray.join(" ")
 end
-  
     
